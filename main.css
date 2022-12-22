@@ -1,0 +1,41 @@
+#main-title{
+    font-family: 'Old English Five', sans-serif;
+}
+
+body{
+    width:fit-content;
+}
+#innards{
+    background-color: #785115;
+    border-color: #8C6529;
+    border-width: 13px;
+    border-style: solid;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+div{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+    
+}
+
+div > h1{
+    font-size: small;
+    border: 0;
+}
+
+p{
+    font-size: x-small;
+    margin: 0;
+}
